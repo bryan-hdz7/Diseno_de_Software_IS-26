@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         ModuloLogin login = new ModuloLogin();
         ModuloReportes reportes = new ModuloReportes();
@@ -11,9 +10,9 @@ public class Main {
         System.out.println("instance1 == instance2 -> " + (instance1 == instance2));
 
         if (instance1 == instance2) {
-            System.out.println("Ambas variables apuntan al mismo objeto. Singleton implementado correctamente.");
+            System.out.println("Ambas variables apuntan al mismo objeto.");
         } else {
-            System.out.println("Son objetos distintos. El Singleton está mal implementado.");
+            System.out.println("Las variables apuntan a objetos distintos");
         }
     }
 }
